@@ -33,8 +33,8 @@ export default function App() {
   });
   return (
     <div className="w-full h-full flex flex-col gap-6 justify-center items-center bg-white text-black">
-      <div className="navbar !min-h-8 !h-8">
-        <div className="flex-1 !h-8">
+      <div className="navbar !min-h-8 !h-8 px-12">
+        <div className="flex-1 !h-8 ">
           <div className="px-4 font-semibold text-xl">Avatars demo</div>
         </div>
         <div className="flex-none gap-2">
@@ -46,7 +46,7 @@ export default function App() {
             <SlDocs />
             Docs
           </a>
-          <a className="btn btn-square btn-ghost" href="">
+          <a className="btn btn-square btn-ghost" href="https://github.com/avatechgg/avatars-react-vite-demo">
             <FaGithub size={32} />
           </a>
         </div>
